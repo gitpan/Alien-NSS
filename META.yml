@@ -1,7 +1,7 @@
 ---
 abstract: 'Alien wrapper for NSS ( Network Security Services )'
 author:
-  - 'Bernhard Amann <bernhard@icsi.berkeley.edu'
+  - 'Bernhard Amann <bernhard@icsi.berkeley.edu>'
 build_requires: {}
 configure_requires:
   Alien::Base: 0.001
@@ -16,11 +16,11 @@ name: Alien-NSS
 provides:
   Alien::NSS:
     file: lib/Alien/NSS.pm
-    version: 0.01
+    version: 0.02
 requires:
   Alien::Base: 0
   File::ShareDir: 1.00
   perl: v5.8.1
 resources:
   license: http://www.mozilla.org/MPL/MPL-1.1.txt
-version: 0.01
+version: 0.02

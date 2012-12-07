@@ -1,5 +1,9 @@
 Build.PL
+Changes
 lib/Alien/NSS.pm
+LICENSE
 MANIFEST			This list of files
-META.yml
 META.json
+META.yml
+README
+t/00-use.t

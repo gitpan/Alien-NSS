@@ -1,7 +1,7 @@
 {
    "abstract" : "Alien wrapper for NSS ( Network Security Services )",
    "author" : [
-      "Bernhard Amann <bernhard@icsi.berkeley.edu"
+      "Bernhard Amann <bernhard@icsi.berkeley.edu>"
    ],
    "dynamic_config" : 1,
    "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
@@ -31,7 +31,7 @@
    "provides" : {
       "Alien::NSS" : {
          "file" : "lib/Alien/NSS.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -40,5 +40,5 @@
          "http://www.mozilla.org/MPL/MPL-1.1.txt"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
