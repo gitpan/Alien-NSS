@@ -31,7 +31,7 @@
    "provides" : {
       "Alien::NSS" : {
          "file" : "lib/Alien/NSS.pm",
-         "version" : "0.03_1"
+         "version" : "0.03_2"
       }
    },
    "release_status" : "testing",
@@ -40,5 +40,5 @@
          "http://www.mozilla.org/MPL/MPL-1.1.txt"
       ]
    },
-   "version" : "0.03_1"
+   "version" : "0.03_2"
 }
