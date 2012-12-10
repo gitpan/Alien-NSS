@@ -16,11 +16,11 @@ name: Alien-NSS
 provides:
   Alien::NSS:
     file: lib/Alien/NSS.pm
-    version: 0.02
+    version: 0.03_1
 requires:
   Alien::Base: 0
   File::ShareDir: 1.00
   perl: v5.8.1
 resources:
   license: http://www.mozilla.org/MPL/MPL-1.1.txt
-version: 0.02
+version: 0.03_1
