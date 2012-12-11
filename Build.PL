@@ -49,6 +49,10 @@ my $builder = Alien::Base::ModuleBuild->new (
 
 	# who needs configure, etc.
 	alien_build_commands => [
+		"echo 'Option add64: $add64'",
+		'uname',
+		'uname -m',
+		'uname -a',
 		'rm -r mozilla/security/nss/cmd/shlibsign/', # fix build for OSx
 		'bash -c \''.$make.' -C mozilla/security/nss nss_build_all BUILD_OPT=1 $add64\'',
 		'rm -r mozilla/nsprpub/*.OBJ/config/nspr.pc' # and remove the nspr.pc to make alien happy

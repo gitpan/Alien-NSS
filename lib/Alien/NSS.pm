@@ -3,7 +3,7 @@ package Alien::NSS;
 use strict;
 use warnings;
 
-our $VERSION = '0.03_2';
+our $VERSION = '0.03_3';
 
 use parent 'Alien::Base';
 
