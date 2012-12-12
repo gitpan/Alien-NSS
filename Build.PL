@@ -4,8 +4,6 @@ use warnings;
 use Alien::Base::ModuleBuild;
 use Data::Dumper;
 
-use 5.10.1;
-
 my $make;
 
 `gmake --version 2>&1`;
