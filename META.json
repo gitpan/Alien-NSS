@@ -31,14 +31,14 @@
    "provides" : {
       "Alien::NSS" : {
          "file" : "lib/Alien/NSS.pm",
-         "version" : "0.03_5"
+         "version" : "0.03"
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "license" : [
          "http://www.mozilla.org/MPL/MPL-1.1.txt"
       ]
    },
-   "version" : "0.03_5"
+   "version" : "0.03"
 }
