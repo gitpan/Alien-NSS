@@ -5,6 +5,8 @@ LICENSE
 MANIFEST			This list of files
 META.json
 META.yml
+patch/nss.patch
+patch/shlibsign.patch
 README
 t/01-config.t
 t/02-use.t
