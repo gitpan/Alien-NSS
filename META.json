@@ -16,13 +16,13 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Alien::Base" : "0.001",
+            "Alien::Base" : "0.003",
             "Module::Build" : "0.38"
          }
       },
       "runtime" : {
          "requires" : {
-            "Alien::Base" : "0",
+            "Alien::Base" : "0.003",
             "File::ShareDir" : "1.00",
             "perl" : "v5.8.1"
          }
@@ -31,7 +31,7 @@
    "provides" : {
       "Alien::NSS" : {
          "file" : "lib/Alien/NSS.pm",
-         "version" : "0.06"
+         "version" : "0.07"
       }
    },
    "release_status" : "stable",
@@ -40,5 +40,5 @@
          "http://www.mozilla.org/MPL/MPL-1.1.txt"
       ]
    },
-   "version" : "0.06"
+   "version" : "0.07"
 }
