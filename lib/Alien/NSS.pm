@@ -3,7 +3,7 @@ package Alien::NSS;
 use strict;
 use warnings;
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 use parent 'Alien::Base';
 
@@ -13,7 +13,7 @@ __END__
 
 =head1 NAME
 
-Acme::NSS - Alien wrapper for NSS ( Network Security Services )
+Alien::NSS - Alien wrapper for NSS ( Network Security Services )
 
 =head1 SYNOPSIS
 
