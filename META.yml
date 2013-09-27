@@ -7,7 +7,7 @@ configure_requires:
   Alien::Base: 0.003
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132661'
 license: open_source
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,11 +16,11 @@ name: Alien-NSS
 provides:
   Alien::NSS:
     file: lib/Alien/NSS.pm
-    version: 0.09
+    version: 0.10
 requires:
   Alien::Base: 0.003
   File::ShareDir: 1.00
   perl: v5.8.1
 resources:
   license: http://opensource.org/licenses/mozilla1.1.php
-version: 0.09
+version: 0.10
