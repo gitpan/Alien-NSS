@@ -3,9 +3,12 @@ Changes
 lib/Alien/NSS.pm
 LICENSE
 MANIFEST			This list of files
+MANIFEST.SKIP
 META.json
 META.yml
 patch/nss.patch
 README
 t/01-config.t
 t/02-use.t
+t/03-signature.t
+SIGNATURE    Added here by Module::Build

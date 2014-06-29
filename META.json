@@ -1,12 +1,12 @@
 {
    "abstract" : "Alien wrapper for NSS ( Network Security Services )",
    "author" : [
-      "Bernhard Amann <bernhard@icsi.berkeley.edu>"
+      "Johanna Amann <johanna@icir.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4205",
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.141170",
    "license" : [
-      "mozilla_1_1"
+      "open_source"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -17,7 +17,8 @@
       "configure" : {
          "requires" : {
             "Alien::Base" : "0.003",
-            "Module::Build" : "0.38"
+            "Module::Build" : "0.38",
+            "Test::More" : "0"
          }
       },
       "runtime" : {
@@ -31,14 +32,14 @@
    "provides" : {
       "Alien::NSS" : {
          "file" : "lib/Alien/NSS.pm",
-         "version" : "0.15"
+         "version" : "0.16"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "license" : [
-         "http://opensource.org/licenses/mozilla1.1.php"
+         "http://www.mozilla.org/MPL/MPL-1.1.txt"
       ]
    },
-   "version" : "0.15"
+   "version" : "0.16"
 }

@@ -1,0 +1,46 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+SHA1 f3fe2789f99e724a47f41512f8ffc241242f3c6f Build.PL
+SHA1 a2ca7bdf81b32937e1a565b9c406e7250a10a0f4 Changes
+SHA1 9744cedce099f727b327cd9913a1fdc58a7f5599 LICENSE
+SHA1 764d534e99b3b7f30174b41a34f6c0708657a042 MANIFEST
+SHA1 eda0f5c5620905131e0718a91379d9599e262d6e MANIFEST.SKIP
+SHA1 0b7a0ff2be9e50a203d559a32c6ca08818fcd4ab META.json
+SHA1 7a835a074bcc945c15b1a23b4818b6c31dcad445 META.yml
+SHA1 f07a47a2ea7fbc43f41f628d3faa919d627a93b3 README
+SHA1 39abec8f98c49135e0b9b367b959bedeb617d6c1 lib/Alien/NSS.pm
+SHA1 c9cf3798f1dce06445a0a3881c283aeb7dc125d8 patch/nss.patch
+SHA1 c98ab92aba6d026264a79dd483971d98b723a9d2 t/01-config.t
+SHA1 4c2cb9bab0a045a7e1303f7c492d512a4b37ed4b t/02-use.t
+SHA1 3ec6171779122b0bdc69937c283be11b2a15dd89 t/03-signature.t
+-----BEGIN PGP SIGNATURE-----
+Comment: GPGTools - https://gpgtools.org
+
+iQIcBAEBCgAGBQJTr1dXAAoJECOZ8Wl8E8ZdSIkP+gJz6FOeELPlBWQaf4VWWOq+
+4LSGABfiSD6Gzhm8BjXW2lH1qn+hs1L1WIcuCLpUkvnJ5MI9xqXR5GRIYrNYkJTy
+5oxV/l8bYEzi9GfhN+XZqV+v7ccv8l7PekUEsL4ArHc3pTZnF/B1mm5EpT3raiQ2
+D29B5+VRhKghbeevRNbhqMj2wRrNtYlT626CkrJGs5qtEMxXlx7DqrVuTrKrk1Xd
+oDad7UckFMynlEsib+fqJQlxkR8e6zNl+JqXqi0uV4I22ECB0mll+1LP5G1IwDKx
+0tFGU5ml9XVXs0v6GKSnBWiwZmQGAZD+zIzE4T1n+m30w17mBb6xc9g9YufnXqGI
+ZMHluVNU3dlGbk5visLTflZUDo9RTl0H9YxCVkN+592Shaoe8lmnu90mxRvgAtkW
+Xyq4x2wEzss2Gn519xS6bRncb3MiIOVBZF/apvnKTs8gyxl5ZYqbtpRpAWxL+DKc
+KYmB/kts7mFZGvvkSdBhS/3ZUR8JXhyaC8z242OBVd/v/TUq3CazpzgXocve9n15
+gtt6BS7axks0IcPvxcJ/aPz4vBlePG1fGrJkj62KRl0SX4ukLNceMGbE3OH4oU0c
+M4gxCmf5vdKwSsfXnHbfKTk8UpL9V7xsveVDXVdTl8ZowJ3uai4VkXAqJlzXj+nA
+EyRDjqBbDf5O4czhK/A2
+=qn06
+-----END PGP SIGNATURE-----
