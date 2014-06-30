@@ -32,21 +32,21 @@
    "provides" : {
       "Alien::NSS" : {
          "file" : "lib/Alien/NSS.pm",
-         "version" : "0.17_01"
+         "version" : "0.17"
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/0xxon/alien-nss/issues"
       },
       "homepage" : "https://github.com/0xxon/alien-nss",
       "license" : [
-         "http://www.mozilla.org/MPL/2.0/index.txt"
+         "http://www.mozilla.org/MPL/MPL-1.1.txt"
       ],
       "repository" : {
          "url" : "https://github.com/0xxon/alien-nss.git"
       }
    },
-   "version" : "0.17_01"
+   "version" : "0.17"
 }
