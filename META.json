@@ -32,7 +32,7 @@
    "provides" : {
       "Alien::NSS" : {
          "file" : "lib/Alien/NSS.pm",
-         "version" : "0.17"
+         "version" : "0.18"
       }
    },
    "release_status" : "stable",
@@ -48,5 +48,5 @@
          "url" : "https://github.com/0xxon/alien-nss.git"
       }
    },
-   "version" : "0.17"
+   "version" : "0.18"
 }
