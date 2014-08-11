@@ -8,8 +8,8 @@ configure_requires:
   Module::Build: '0.38'
   Test::More: '0'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.141170'
-license: open_source
+generated_by: 'Module::Build version 0.4206, CPAN::Meta::Converter version 2.140640'
+license: mozilla
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
@@ -17,7 +17,7 @@ name: Alien-NSS
 provides:
   Alien::NSS:
     file: lib/Alien/NSS.pm
-    version: '0.18'
+    version: '0.19'
 requires:
   Alien::Base: '0.003'
   File::ShareDir: '1.00'
@@ -25,6 +25,6 @@ requires:
 resources:
   bugtracker: https://github.com/0xxon/alien-nss/issues
   homepage: https://github.com/0xxon/alien-nss
-  license: http://www.mozilla.org/MPL/MPL-1.1.txt
+  license: http://opensource.org/licenses/mozilla1.1.php
   repository: https://github.com/0xxon/alien-nss.git
-version: '0.18'
+version: '0.19'
