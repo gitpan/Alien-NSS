@@ -17,7 +17,7 @@ name: Alien-NSS
 provides:
   Alien::NSS:
     file: lib/Alien/NSS.pm
-    version: '0.19'
+    version: '0.20'
 requires:
   Alien::Base: '0.003'
   File::ShareDir: '1.00'
@@ -27,4 +27,4 @@ resources:
   homepage: https://github.com/0xxon/alien-nss
   license: http://opensource.org/licenses/mozilla1.1.php
   repository: https://github.com/0xxon/alien-nss.git
-version: '0.19'
+version: '0.20'
