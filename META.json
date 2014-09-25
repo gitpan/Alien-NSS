@@ -4,9 +4,9 @@
       "Johanna Amann <johanna@icir.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4206",
+   "generated_by" : "Module::Build version 0.421",
    "license" : [
-      "mozilla_1_1"
+      "mozilla_1_0"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -32,7 +32,7 @@
    "provides" : {
       "Alien::NSS" : {
          "file" : "lib/Alien/NSS.pm",
-         "version" : "0.20"
+         "version" : "0.21"
       }
    },
    "release_status" : "stable",
@@ -42,11 +42,11 @@
       },
       "homepage" : "https://github.com/0xxon/alien-nss",
       "license" : [
-         "http://opensource.org/licenses/mozilla1.1.php"
+         "http://www.mozilla.org/MPL/MPL-1.0.txt"
       ],
       "repository" : {
          "url" : "https://github.com/0xxon/alien-nss.git"
       }
    },
-   "version" : "0.20"
+   "version" : "0.21"
 }
